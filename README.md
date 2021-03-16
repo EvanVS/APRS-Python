@@ -2,8 +2,16 @@
 APRS Beaconing, Weather &amp; Telemetry over TCPIP
 
 
-# Setup
-1. Download & Unzip the files
-2. Open the main.py in a text editor
-3. Generate a APRS Callsign Password via this website: https://apps.magicbug.co.uk/passcode/
-4. Put the password along with your callsign and other information inside the setup section of the main.py file
+# Configuration
+At the top of the main.py file there is an outlined Configuration section.
+
+ServerHost
+ServerPort
+Callsign
+SSID
+Password
+latitude
+longitude
+Comment
+Status
+Delay
