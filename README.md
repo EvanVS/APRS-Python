@@ -14,6 +14,9 @@ At the top of the main.py file there is an outlined Configuration section. Some 
 - longitude - Your location longitude (In DDMM.MM Format)
 - Comment - Your station comment
 - Status - Your station status
+- Status_Packet - Enable/Disable sending the status packet (Default: False)
+- Primary_Symbol_Key - This is a forward or back slash indicating if you are picking the primary set of symbols or the secondary set. (mentioned more in the link below)
+- Secondary_Symbol_Key - Sets the station symbol. You can see the available symbols here: https://blog.thelifeofkenneth.com/2017/01/aprs-symbol-look-up-table.html
 - Delay - Delay between beacons in seconds (Interval) (Default: 600 (10 mins))
 
 # Future Features
