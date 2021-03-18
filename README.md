@@ -1,5 +1,5 @@
 # APRS-Python
-This script makes it easy and simple to start beaconing your location on the APRS netowrk by sending your position directily to the APRS.IS servers via the TCP websocket protocol. This script has been tested using Python 3.8 on Windows. Please note you MUST LEAGALLY have a valid amateur radio callsign to use this script. Operating anything that connect to the amateur radio frequencies without a valid amateur radio callsign is agenst federal law as outlined by the FCC.
+This script makes it easy and simple to start beaconing your location on the APRS netowrk by sending your position directily to the APRS.IS servers via the TCP websocket protocol. This script has been tested using Python 3.8 on Windows. Please note you MUST LEAGALLY have a valid amateur radio callsign to use this script. Using any service that connects/could connect to the amateur radio frequencies without a valid amateur radio callsign is agenst federal law as outlined by the FCC.
 
 
 # Configuration
