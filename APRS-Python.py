@@ -137,7 +137,8 @@ def send_packet():
 	sSock.shutdown(0)
 	sSock.close()
 	print("\n----------")
-	
+
+check_config()
 while True:
 	send_packet()
 	countdown(Delay)
