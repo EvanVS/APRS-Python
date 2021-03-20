@@ -9,12 +9,12 @@ import datetime
 #   / ____ \| |    | | \ \ ____) | | |   | |_| | |_| | | | (_) | | | |
 #  /_/    \_\_|    |_|  \_\_____/  |_|    \__, |\__|_| |_|\___/|_| |_|
 #                                          __/ |                      
-#  https://github.com/EvanVS/APRS-Python  |___/    Version: 0.12 BETA  
+#  https://github.com/EvanVS/APRS-Python  |___/      Version: 0.13    
 
 
 # ---------------- INFORMATION ----------------
 #
-#  APRS Python - V0.12 BETA Release
+#  APRS Python - V0.13
 #  Evan Vander Stoep - March, 2021
 #  
 #  This script is open source. Please leave author credit.
@@ -116,7 +116,7 @@ def send_packet():
 	sSock.send(bytes(RAWpacket, 'utf-8'))
 	
 	# send BEACON packet
-	BEACONpacket = f'{Callsign}{SSID}>APE,TCPIP*:={Latitude}/{Longitude}-{Comment}\n'
+	BEACONpacket = f'{Callsign}{SSID}>APE,TCPIP*:={Latitude}{Primary_Symbol_Key}{Longitude}{Secondary_Symbol_Key}{Comment}\n'
 	sSock.send(bytes(BEACONpacket, 'utf-8'))
 	
 	print(BEACONpacket)
